@@ -1,7 +1,8 @@
 # Define the __all__ variable
-__all__ = ["scene", "shapes"]
+__all__ = ["camera","scene", "shapes","palettes"]
 
 # Import the submodules
+from .camera import *
 from .scene import *
 from .shapes import *
-from .camera import *
+from .palettes import *

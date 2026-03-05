@@ -1,7 +1,6 @@
 # Define the __all__ variable
-__all__ = ["shape", "sphere","point"]
+__all__ = ["shape","point"]
 
 # Import the submodules
 from .shape import *
-from .sphere import *
 from .point import *
