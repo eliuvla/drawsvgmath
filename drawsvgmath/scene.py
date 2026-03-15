@@ -21,7 +21,7 @@ class Scene():
         self.origin = (0,0)
         
         self.canvas = draw.Drawing(width, height, origin= self.origin, id_prefix= self.id)
-        self.canvas.append(draw.Rectangle(0, 0, self.width, self.height,fill='rgb(255,255,255)'))
+        self.canvas.append(draw.Rectangle(0, 0, self.width, self.height,fill=self.palette.mid))
 
     def draw(self):
         for object in self.objects:
